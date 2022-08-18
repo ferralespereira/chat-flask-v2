@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{% block title %} None {% endblock title %} | Chat Flask</title>
+
+        {# Boostrap CSS #}
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+        {# Boostrap icons #}
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    </head>
+
+    <body class="container">
+        
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand text-secondary fw-bold" href="">Easy Chat</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offset-9 float-end collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  {#<a class="nav-link" id="contact-navBar-link" href="">Contact</a>#}
+                  
+                  <a class="nav-link active" id="logout" href="/left">
+                    Logout <h4 class="text-info" id="user-name">{{user_name}}</h4>
+                  </a>
+                  
+                </div>
+              </div>
+            </div>
+          </nav>
+        
+            {#{% include 'users.html' %}#}
+          <section id="content" class="content p-2 mb-2 ">
+            {% block content %}{% endblock content %}
+          </section>
+        
+        <footer class="mt-5">
+            <hr>
+            <p class="text-secondary" align="center">javierfolder.com </p>
+        </footer>
+        
+        {# Boostrap JS #}
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        
+        <script type="text/javascript" src="{{ url_for('static', filename = 'js/layout.js') }}"></script>
+    </body>
+</html>

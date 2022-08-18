@@ -1,0 +1,63 @@
+{% extends 'layout.html' %}
+{% block title %}Login{% endblock title %}
+
+{% block content %}
+
+
+    <div class="border border-primary border-opacity-50 rounded col-md-4 p-2">
+
+        {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            {% for category, message in messages %}
+            <div class="alert alert-{{ category }} col-md-8 offset-md-2 mt-2" align="center" role="alert" "> {{ message }} </div>
+            {% endfor %}
+        {% endif %}
+        {% endwith %}
+ 
+        <form action="" method="post">
+            
+            <div class="form-floating col-6 offset-2 text-primary">
+                {{ form.name(class_="form-control border-primary border-opacity-50 fs-5 fw-bolder text-primary", placeholder="") }}
+                {{ form.name.label(for="name") }}
+            </div>
+            
+            {# div info #}
+            <p id="info" class="fw-bold text-info mt-3"></p>
+
+            {# div users #}
+            <div id="users" name="users" class="alert alert-info border border-info border-opacity-10 rounded p-3 mt-3">
+            </div>
+        
+        </form>
+
+        {# div chat #}
+
+        {% if room %}
+        {#{% if session.get('name') %}#}
+
+            <div class="card text-bg-dark mb-3 mx-3">
+                <div class="card-header fs-2">
+
+                    {{ room }}
+                    <a href="/leave-room" class="bi bi-x-lg float-end text-white"></a>
+                </div>
+                <div class="card-body">
+                    
+                    <textarea class="form-control bg-white rounded-top rounded-0" disabled id="chat" rows="10"></textarea>
+                    <input id="text" class="form-control rounded-bottom rounded-0" onkeypress="sendText(event)" placeholder="Enter your message here"><br><br>
+                    
+                </div>
+            </div>
+
+        {#{% else %}#}
+
+        {% endif %}
+
+
+    </div>
+     {# socketIO #}
+     <script type="text/javascript" src="//cdn.socket.io/4.4.1/socket.io.min.js"></script>
+        
+     <script type="text/javascript" src="{{ url_for('static', filename = 'js/chat.js') }}"></script>
+
+{% endblock content %}
