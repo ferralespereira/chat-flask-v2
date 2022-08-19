@@ -4,6 +4,7 @@ let socket:any = io.connect('http://' + document.domain + ':' + location.port);
     socket.emit('joined');
 // });
 
+let users:any = document.getElementById('users');
 
 let user_name:any = document.getElementById('user-name');
 socket.on('give me your name', function() {
@@ -18,8 +19,7 @@ socket.on('connect with you', function(data:any){
 });
 
 socket.on('get user list', function(data:any){
-    let users:any = document.getElementById('users');
-    
+
     // if are users connected, show all user names in botons except mine
     if ((data.list_users).length > 0 && (data.list_users[0]).length > 0 ){
         users.innerHTML = 'Select users to connect: <br>';
@@ -60,3 +60,13 @@ function sendText(e:any){
     }
 }
 
+
+// if the socketio can not connect, wait 3sec and try to connect again
+setTimeout(function () {
+
+    if (users.children.length == 0){
+        socket.emit('joined');
+        console.log('Reconected')
+    }
+
+}, 3000);
