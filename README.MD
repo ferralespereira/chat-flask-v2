@@ -1,5 +1,5 @@
 # chat-Flask-v2
-This is a Chat Web Site made it in Flask
+This is a Chat Web Site made it in Flask (Python Framework)
 
 ## To Deploy in Ubuntu with Gunicorn and Apache2 server:
 
