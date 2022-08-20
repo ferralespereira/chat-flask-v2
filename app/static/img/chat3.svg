@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="311.29938"
+   height="220.42467"
+   viewBox="0 0 82.364621 58.320693"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (1:1.1+202109281949+c3084ef5ed)"
+   sodipodi:docname="chat3.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="false"
+     inkscape:document-units="px"
+     showgrid="false"
+     units="px"
+     width="800px"
+     inkscape:zoom="1.1407729"
+     inkscape:cx="388.7715"
+     inkscape:cy="129.2983"
+     inkscape:window-width="1366"
+     inkscape:window-height="704"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient31174">
+      <stop
+         style="stop-color:#0068aa;stop-opacity:1;"
+         offset="0"
+         id="stop31170" />
+      <stop
+         style="stop-color:#0068aa;stop-opacity:0;"
+         offset="1"
+         id="stop31172" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient11335">
+      <stop
+         style="stop-color:#4fa700;stop-opacity:1;"
+         offset="0"
+         id="stop11331" />
+      <stop
+         style="stop-color:#4fa700;stop-opacity:0;"
+         offset="1"
+         id="stop11333" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient11335"
+       id="linearGradient11337"
+       x1="937.45776"
+       y1="150.90002"
+       x2="902.50189"
+       y2="140.85141"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.48757451,0,0,0.34124749,-363.68695,-8.7839512)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient31174"
+       id="linearGradient31176"
+       x1="22.764191"
+       y1="20.6199"
+       x2="35.947739"
+       y2="24.465494"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-13.366924,-5.9358497)">
+    <ellipse
+       style="display:none;opacity:0.684292;fill:#4fa700;fill-opacity:1;stroke:#4c4f61;stroke-width:0.0845739;paint-order:fill markers stroke"
+       id="path9671"
+       cx="52.605778"
+       cy="30.360783"
+       rx="51.17627"
+       ry="38.190693" />
+    <path
+       id="path10924"
+       style="display:none;opacity:1;fill:url(#linearGradient11337);fill-opacity:1;stroke:none;stroke-width:0.112543;paint-order:fill markers stroke"
+       d="M 88.152746,3.4103114 62.483705,68.84018 C 90.123424,61.749017 103.92311,48.07708 103.93604,30.472834 103.93395,20.684573 98.385397,11.170852 88.152746,3.4103114 Z"
+       sodipodi:nodetypes="cccc" />
+    <path
+       id="path14015"
+       style="opacity:1;fill:#0060aa;fill-opacity:1;stroke:#829d61;stroke-width:0.118353;stroke-opacity:1;paint-order:fill markers stroke"
+       d="M 15.337835,16.113675 C 19.162972,8.9165429 82.59916,4.2855965 86.4821,6.5919494 c 7.12688,2.5084395 8.50427,31.1715566 6.20298,36.8159876 -2.3013,5.644429 -49.95555,9.863864 -49.95555,9.863864 L 36.319088,64.043937 36.24093,53.122651 c 0,0 -12.11049,2.763477 -16.906828,-0.319042 -2.469694,-1.267983 -9.171078,-28.727098 -3.996267,-36.689934 z"
+       sodipodi:nodetypes="cczccccc" />
+    <path
+       id="rect948"
+       style="opacity:1;fill:#00ccaa;fill-opacity:1;stroke:#829d61;stroke-width:0.118353;stroke-opacity:1;paint-order:fill markers stroke"
+       d="m 17.30163,17.925441 c 3.825137,-7.19713 67.26133,-11.8280756 71.144265,-9.5217231 7.126878,2.5084391 8.504272,31.1715541 6.202977,36.8159851 -2.301297,5.644429 -49.955546,9.863864 -49.955546,9.863864 l -8.374238,8.96037 1.885642,-9.10952 c 0,0 -12.11049,2.763477 -16.906833,-0.319042 C 18.828203,53.347392 12.126819,25.888277 17.30163,17.925441 Z"
+       sodipodi:nodetypes="cczccccc" />
+    <path
+       id="path30997"
+       style="opacity:0.60214;fill:url(#linearGradient31176);fill-opacity:1;stroke:none;stroke-width:0.118353;stroke-opacity:1;paint-order:fill markers stroke"
+       d="m 49.563136,9.6959784 c -15.80281,1.7944966 -30.83575,4.6145756 -32.6378,8.0051976 -5.17481,7.962836 1.52695,35.421765 3.99665,36.689749 1.45691,0.936326 3.58912,1.331044 5.85133,1.429887 z" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.8402px;line-height:1.25;font-family:Dyuthi;-inkscape-font-specification:Dyuthi;display:inline;opacity:1;fill:#ffffff;stroke:#0060aa;stroke-width:0.521007;stroke-opacity:1"
+       x="18.264479"
+       y="47.551514"
+       id="text5588"
+       transform="rotate(-7.4010877)"><tspan
+         sodipodi:role="line"
+         id="tspan5586"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Dyuthi;-inkscape-font-specification:Dyuthi;fill:#ffffff;stroke:#0060aa;stroke-width:0.521007;stroke-opacity:1"
+         x="18.264479"
+         y="47.551514">CHAT...</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.236px;line-height:1.25;font-family:Dyuthi;-inkscape-font-specification:Dyuthi;display:inline;opacity:0.630558;fill:#ffffff;stroke:#0060aa;stroke-width:0.3559;stroke-opacity:1"
+       x="19.679359"
+       y="24.445816"
+       id="text32904"
+       transform="rotate(-1.5137464)"><tspan
+         sodipodi:role="line"
+         id="tspan32902"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Dyuthi;-inkscape-font-specification:Dyuthi;fill:#ffffff;stroke:#0060aa;stroke-width:0.3559;stroke-opacity:1"
+         x="19.679359"
+         y="24.445816">Easy</tspan></text>
+  </g>
+</svg>
