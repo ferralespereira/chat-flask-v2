@@ -6,8 +6,9 @@ This is a Chat Web Site made it in Flask (Python Framework)
 * Clone the project:
 `git clone https://github.com/ferralespereira/chat-flask-v2.git`
 
+* Before go to the next step make sure you have installed `python3.8` in this project. <a href="#Install phyton3.8">To Install phyton3.8</a>
 * Go to project folder and create a venv (virtual enviroment):
-`python3 -m venv venv`
+`python3.8 -m venv venv`
 
 * Activate venv:
 `source venv/bin/activate`
@@ -137,3 +138,20 @@ WantedBy=multi-user.target
 
 * Reload the Apache2 service:
 `sudo systemctl reload apache2`
+
+## Others:
+
+### <h2 id="Install phyton3.8">Install phyton3.8</h2>
+* Add the deadsnakes PPA: This repository provides older Python versions.
+```
+    sudo add-apt-repository ppa:deadsnakes/ppa
+    sudo apt update
+```
+* Install Python 3.8.
+```
+    sudo apt install python3.8
+```
+* Install virtualenv package. 
+```
+    sudo apt install python3.8-venv
+```
